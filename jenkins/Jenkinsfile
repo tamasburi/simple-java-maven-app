@@ -26,5 +26,8 @@ pipeline {
                 echo 'Job Completed :)'
             }
         }
+        stage('polling scm'){
+            echo 'done'
+        }
     }
 }
